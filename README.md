@@ -3,7 +3,13 @@ In this project, I used Microsoft Excel to analyze Maven marketing campaign data
 
 🌼 Dataset Link: [Maven Analytics](https://www.mavenanalytics.io/data-playground?order=date_added%2Cdesc&search=marketing)
 
+The main objectives were to 1) , 2) , and 3) .
+
+
 ## 📚 Dataset Description:
+
+![image](https://github.com/user-attachments/assets/51f94ff5-83ce-4cd6-b7c8-3cb433af2a97)
+
 
 ## :bulb: Data Cleaning Process
 
@@ -104,4 +110,11 @@ In this project, I used Microsoft Excel to analyze Maven marketing campaign data
 - Given these results, the company should further investigate what specifically made the latest campaign more successful and focus on replicating that type of campaign to determine if it consistently produces a high conversion rate. Additionally, based on previous lessons, the company should avoid repeating the approach used in the second campaign, which was not effective.
 
  <img width="737" alt="image" src="https://github.com/user-attachments/assets/4c288aee-af61-42d1-9427-399d3917329b">
+
+## Conclusion:
+
+   
+> [!NOTE]
+> For a detailed exploration of the data and results, check out the story in **Tableau** that I delivered visualization of the key findings from this data analysis.\
+> To view and interact with the Tableau story, visit [here]()
 
