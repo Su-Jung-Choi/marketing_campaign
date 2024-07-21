@@ -1,10 +1,12 @@
 # :computer: Marketing Campaign Data Analysis
-In this project, I used Microsoft Excel to analyze Maven marketing campaign data, containing 2,240 customers' information.
+In this project, I used Microsoft Excel to explore and analyze Maven marketing campaign data, containing 2,240 customers' information.
 
 🌼 Dataset Link: [Maven Analytics](https://www.mavenanalytics.io/data-playground?order=date_added%2Cdesc&search=marketing)
 
-The main objectives were to 1) , 2) , and 3) .
-
+The main objectives were to:
+- Identify customer segmentation based on their demographics (e.g., age, education, marital status) and the types of products they buy the most (e.g., meat, fish, wines) to better understand customers and target main customers with customized services.
+- Evaluate the effectiveness of past marketing campaigns (AcceptedCmp1-5 and Response in the given dataset).
+- Evaluate the performance of different sales channels (e.g., web, catalog, store) and identify areas for improvement in the company's online and offline sales strategies.
 
 ## 📚 Dataset Description:
 
