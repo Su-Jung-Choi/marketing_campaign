@@ -1,5 +1,7 @@
 # :computer: Marketing Campaign Data Analysis
-In this project, I used Microsoft Excel to explore and analyze Maven marketing campaign data, containing 2,240 customers' information.
+In this project, I used **Microsoft Excel** to explore and analyze Maven marketing campaign data, which contains information on 2,240 customers. I first cleaned the data to ensure integrity and then analyzed it using `PivotTables` and various `Charts`. Finally, I highlighted key findings and delivered the data analysis report using **Tableau** Story.
+
+We assume the data is up-to-date in 2024, and the amounts spent on products are in dollar currency.
 
 🌼 Dataset Link: [Maven Analytics](https://www.mavenanalytics.io/data-playground?order=date_added%2Cdesc&search=marketing)
 
@@ -10,7 +12,7 @@ The main objectives were to:
 
 ## 📚 Dataset Description:
 
-![image](https://github.com/user-attachments/assets/51f94ff5-83ce-4cd6-b7c8-3cb433af2a97)
+![image](https://github.com/user-attachments/assets/b1201bce-8889-44fc-a3c9-9429415ed6ff)
 
 
 ## :bulb: Data Cleaning Process
@@ -113,8 +115,10 @@ The main objectives were to:
 
  <img width="737" alt="image" src="https://github.com/user-attachments/assets/4c288aee-af61-42d1-9427-399d3917329b">
 
-## Conclusion:
+- Note: The conversion rate is calculated as `(number of customers who accepted the campaign / total number of customers) * 100`.
 
+## Conclusion:
+- The most common profile is a Gen X individual (born between 1965 and 1980), with a bachelor's degree, partnered (either married or living together), having no children at home, earning between $40,000 and $60,000 annually, and residing in Spain.
    
 > [!NOTE]
 > For a detailed exploration of the data and results, check out the story in **Tableau** that I delivered visualization of the key findings from this data analysis.\
