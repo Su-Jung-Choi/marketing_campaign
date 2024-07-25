@@ -8,7 +8,7 @@ For the purpose of this analysis, the following general assumptions are made:
 
 🌼 Dataset Link: [Maven Analytics](https://www.mavenanalytics.io/data-playground?order=date_added%2Cdesc&search=marketing)
 
-The main objectives were to:
+The main objectives are to:
 - Identify customer segmentation based on their demographics (e.g., age, education, marital status) and the types of products they buy the most (e.g., meat, fish, wines) to better understand customers and target main customers with customized services.
 - Evaluate the effectiveness of past marketing campaigns (AcceptedCmp1-5 and Response in the given dataset).
 - Evaluate the performance of different sales channels (e.g., web, catalog, store) and identify areas for improvement in the company's online and offline sales strategies.
@@ -116,40 +116,52 @@ The main objectives were to:
 <img width="602" alt="image" src="https://github.com/user-attachments/assets/34d9b987-98d8-4f03-927e-73b4f6c408cf">
 
 ## :bulb: Campaign Results:
-- Whether the conversion rate is considered good enough depends on industry standards and campaign goals. Since we do not have specific context for this dataset, we can generally compare the latest campaign with previous ones. The third, fourth, and fifth campaigns consistently achieved similar results, around 7.3%. The second campaign performed the worst, with a poor conversion rate of approximately 1.3%. The latest campaign was the most successful, with a conversion rate of about 15%.
-- Given these results, the company should further investigate what specifically made the latest campaign more successful and focus on replicating that type of campaign to determine if it consistently produces a high conversion rate. Additionally, based on previous lessons, the company should avoid repeating the approach used in the second campaign, which was not effective.
 
  <img width="737" alt="image" src="https://github.com/user-attachments/assets/4c288aee-af61-42d1-9427-399d3917329b">
 
 - Note: The conversion rate is calculated as `(number of customers who accepted the campaign / total number of customers) * 100`.
+- Whether the conversion rate is considered good enough depends on industry standards and campaign goals. Since we do not have specific context for this dataset, we can generally compare the latest campaign with previous ones. The third, fourth, and fifth campaigns consistently achieved similar results, around 7.3%. The second campaign performed the worst, with a poor conversion rate of approximately 1.3%. The latest campaign was the most successful, with a conversion rate of about 14.91%.
+- Given these results, the company should further investigate what specifically made the latest campaign more successful and focus on replicating that type of campaign to determine if it consistently produces a high conversion rate. Additionally, based on previous lessons, the company should avoid repeating the approach used in the second campaign, which was not effective.
 
-## ⚡ Key Findings and actionable recommendations:
-- As the sixth campaign achieved a significant increase to a 14.91% conversion rate, the marketing company should try replicating the approach used in that campaign. It will help determine if the high conversion rate can be consistently achieved across future campaigns.
-- Avoid repeating the strategy of the second campaign. Its significantly lower conversion rate suggests that it was less effective, and further investigation into the reasons behind its underperformance is recommended.
-- The most common profile is a Gen X individual (born between 1965 and 1980), with a bachelor's degree, partnered (either married or living together), having no children at home, earning between $40,000 and $60,000 annually, and residing in Spain.
+## ⚡ Key Findings and Actionable Recommendations:
 
-- The amount spent by customers on different product categories in the last two years. According to the data, wines are the top revenue-generating category, with a substantial $665K in total spending, highlighting its popularity and significant impact on overall revenue. Meat follows as the second-highest category with $396K in spending. In contrast, Gold, Fish, Sweet, and Fruits have much lower spending. This suggests a lower level of consumer interest in these product categories or potentially less effective marketing strategies for these products.
+### :pushpin: Point 1: Who is the typical customer?
 
-• Recommendation: 
-- Focus marketing efforts on promoting high-revenue categories like wines and meat, while trying different strategies to boost the appeal of lower-performing categories such as fruits.
+<img width="789" alt="image" src="https://github.com/user-attachments/assets/3a9696c9-c9e5-4d58-9ccf-5eab0120868f">
 
-The Store channel leads with the highest number of purchases, totaling 12,653. This reflects a strong preference for in-person shopping and the effectiveness of the physical store in driving sales. The Web channel is the second most popular channel, with 8,954 purchases, demonstrating significant online engagement but still trailing behind the store. Catalog and Deals are less effective in attracting customers, with 5,810 purchases and 5,084 purchases, respectively.
+- The most common profile:
+  - `Gen X` generation (born between 1965 and 1980)
+  - Education Level: `bachelor's degree`
+  - Marital Status: partnered (either `married` or living `together`)
+  - having `no children at home`
+  - Annual Income: between `$40,000 and $60,000`
+  - Location: `Spain`.
 
-•  Recommendations: 
-- Since the majority of customers prefer to buy in person, invest in maintaining and potentially expanding the store channel’s strengths. 
-- Consider enhancing the deals channel’s effectiveness through targeted promotions or re-evaluating its strategy.
 
-- Recency indicates the number of days since a customer's last purchase. The distribution shows that customer purchases are spread out across a wide range of days, from 0 to 100. While some customers are purchasing again within a few days, a significant portion (about 70%) are taking much longer to return (more than 30 days). This indicates that customers do not return quickly, suggesting a need to improve customer retention.
+### :pushpin: Point 2: Which Products are Popular?
 
-• Recommendations:
-- Utilize targeted marketing campaigns to re-engage customers who have not made a purchase recently. Some possible ways to do it include personalized emails providing special offers like discounts on their next purchase or loyalty programs that reward customers for making frequent purchases.
-- Conduct a survey to gather feedback from customers to understand why they do not purchase frequently, assess their satisfaction with the products and services, and identify areas for improvement.
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/0f259e7b-686f-411f-8c13-ec8e8ccd4677">
 
-- Majority of customers visit the website fewer than 10 times a month. This indicates that while there are some repeat visitors, most customers do not visit the site frequently. To increase web purchases, it would be beneficial to encourage more frequent visits. 
+- The graph shows the amount spent by customers on different product categories in the last two years. In the records, `Wines` are the top revenue-generating category, with a substantial $665K in total spending, highlighting its popularity and significant impact on overall revenue. `Meat` follows as the second-highest category with $396K in spending. In contrast, `Gold`, `Fish`, `Sweet`, and `Fruits` have much lower spending. This suggests a lower level of consumer interest in these product categories or potentially less effective marketing strategies for these products. Therefore, the company should focus marketing efforts on promoting high-revenue categories like `Wines` and `Meat`, while trying different strategies to boost the appeal of lower-performing categories such as `Fruits`.
 
-•  Recommendations:
-- Improve the website’s interface and usability, making it more attractive and easier to navigate. 
-- Design a brief and user-friendly questionnaire that can be quickly completed by recipients to understand why customers do not visit the website often and to identify specific areas for improvement, which can provide insights that will help in making targeted enhancements to the site.
+
+### :pushpin: Point 3: Which Channels Attract More Customers?
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/6b56b2a0-e81c-4dd3-aa4e-6b30d7ef54ad">
+
+The **Store** channel leads with the highest number of purchases, totaling 12,653. This reflects a strong preference for in-person shopping and the effectiveness of the physical store in driving sales. The **Web** channel is the second most popular channel, with 8,954 purchases, demonstrating significant online engagement but still trailing behind the store. **Catalog** and **Deals** are less effective in attracting customers, with 5,810 purchases and 5,084 purchases, respectively. Therefore, since the majority of customers prefer to buy in person, it may suggest the company should invest in maintaining and potentially expanding the strengths of its store channel. Given the high concentration of customers in **Spain**, opening new stores in this region could be beneficial. And they should enhance the deals channel’s effectiveness through targeted promotions based on customer demographics or by re-evaluating its strategy.
+
+
+### :pushpin: Point 4: Concern About Customer Recency
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/a1212cff-347f-4416-a5f6-df31686a8a3c">
+
+- Note: **Recency** is defined as 'the number of days since a customer's last purchase'.
+- The distribution shows that customer purchases are spread out across a wide range of days, from 0 to 100. While some customers are purchasing again within a few days, a significant portion (about **70%**) are taking much longer to return (**more than 30 days**). This indicates that customers do not return quickly, suggesting a need to improve customer retention. Based on this information, the company should utilize targeted marketing campaigns to re-engage customers who have not made a purchase recently. Some possible ways to do it include personalized emails providing special offers like discounts on their next purchase or loyalty programs that reward customers for making frequent purchases. Additionally, it is recommended to conduct a survey to gather feedback from customers to understand why they do not purchase frequently, assess their satisfaction with the products and services, and identify areas for improvement.
+
+
+### :pushpin: Point 5: Concern About Low Website Visit Frequency
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/e73d0174-99da-4c67-a285-da93d670c614">
+
+- Majority of customers visit the website fewer than 10 times a month. This indicates that while there are some repeat visitors, most customers do not visit the site frequently. To increase web purchases, it would be beneficial to encourage more frequent visits. Therefore, the company may need to improve the website’s interface and usability, making it more attractive and easier to navigate. Before making these changes, it would be useful to design a brief and user-friendly questionnaire to understand why customers do not visit the website often and identify specific areas for improvement. This can provide valuable insights for making targeted enhancements to the site.
 
 
 > [!NOTE]
