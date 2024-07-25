@@ -136,7 +136,7 @@ The main objectives are to:
   - having `no children at home`
   - Annual Income: between `$40,000 and $60,000`
   - Location: `Spain`.
-
+- The company should focus on targeted marketing campaign and content that resonate with this demographic. 
 
 ### :pushpin: Point 2: Which Products are Popular?
 
@@ -148,7 +148,7 @@ The main objectives are to:
 ### :pushpin: Point 3: Which Channels Attract More Customers?
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/6b56b2a0-e81c-4dd3-aa4e-6b30d7ef54ad">
 
-The **Store** channel leads with the highest number of purchases, totaling 12,653. This reflects a strong preference for in-person shopping and the effectiveness of the physical store in driving sales. The **Web** channel is the second most popular channel, with 8,954 purchases, demonstrating significant online engagement but still trailing behind the store. **Catalog** and **Deals** are less effective in attracting customers, with 5,810 purchases and 5,084 purchases, respectively. Therefore, since the majority of customers prefer to buy in person, it may suggest the company should invest in maintaining and potentially expanding the strengths of its store channel. Given the high concentration of customers in **Spain**, opening new stores in this region could be beneficial. And they should enhance the deals channel’s effectiveness through targeted promotions based on customer demographics or by re-evaluating its strategy.
+- The **Store** channel leads with the highest number of purchases, totaling 12,653. This reflects a strong preference for in-person shopping and the effectiveness of the physical store in driving sales. The **Web** channel is the second most popular channel, with 8,954 purchases, demonstrating significant online engagement but still trailing behind the store. **Catalog** and **Deals** are less effective in attracting customers, with 5,810 purchases and 5,084 purchases, respectively. Therefore, since the majority of customers prefer to buy in person, it may suggest the company should invest in maintaining and potentially expanding the strengths of its store channel. Given the high concentration of customers in **Spain**, opening new stores in this region could be beneficial. And they should enhance the deals channel’s effectiveness through targeted promotions based on customer demographics or by re-evaluating its strategy.
 
 
 ### :pushpin: Point 4: Concern About Customer Recency
