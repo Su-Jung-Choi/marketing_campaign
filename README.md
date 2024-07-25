@@ -1,7 +1,10 @@
 # :computer: Marketing Campaign Data Analysis
 In this project, I used **Microsoft Excel** to explore and analyze Maven marketing campaign data, which contains information on 2,240 customers. I first cleaned the data to ensure integrity and then analyzed it using `PivotTables` and various `Charts`. Finally, I highlighted key findings and delivered the data analysis report using **Tableau** Story.
 
-We assume the data is up-to-date in 2024, and the amounts spent on products are in dollar currency.
+For the purpose of this analysis, the following general assumptions are made:
+1. The data is up-to-date as of 2024.
+2. The amounts spent on products are in US dollars.
+3. The four sales channels — Web, Catalog, Store, and Deals — are mutually exclusive and do not overlap.
 
 🌼 Dataset Link: [Maven Analytics](https://www.mavenanalytics.io/data-playground?order=date_added%2Cdesc&search=marketing)
 
@@ -54,11 +57,13 @@ The main objectives were to:
  ![image](https://github.com/user-attachments/assets/30113ce7-b279-4dec-9016-f6f7c2453978)
 
 ### 5. Binning Columns:
-- Ordered the `'Year_Birth'` column chronologically.
-- Created a new `'Age'` column using the formula: `=YEAR(TODAY()) - D2`
+- **Year of Birth**:
+  - Ordered the `'Year_Birth'` column chronologically.
+  - Created a new `'Age'` column using the formula: `=YEAR(TODAY()) - D2`
   ![image](https://github.com/user-attachments/assets/32e4f5e8-504d-48f3-bff8-f78d2bf6b18c)
 
-- Added a `'Generation'` column with the formula:
+  - Instead of using `Age` directly, I decided to group the age range by generation to better understand cohort similarities. The definition I refer to is [here](https://www.beresfordresearch.com/age-range-by-generation/).
+  - Added a `'Generation'` column with the formula:
   ```
   =IF(C2>=12,IF(C2<=27,"Gen Z",IF(C2<=43,"Millennials",IF(C2<=59,"Gen X",IF(C2<=69,"Boomers II",IF(C2<=78,"Boomers I",IF(C2<=96,"Post War",IF(C2<=102,"WWII","Unknown"))))))),"Unknown")
 
@@ -66,16 +71,17 @@ The main objectives were to:
 
   ![image](https://github.com/user-attachments/assets/911041fb-e0fb-482f-8a0d-16151611b43a)
 
-- Created income bins with $10,000 intervals in the `'Income'` column, which resulted in 11 bins.
+- **Income**:
+  - Created income bins with $10,000 intervals in the `'Income'` column, which resulted in 11 bins.
   ![image](https://github.com/user-attachments/assets/b414630c-a0a1-4443-8f24-2ac29fc581bd)
   ![image](https://github.com/user-attachments/assets/10537ef3-2b79-401d-80ce-57b751864396)
 
  
-- However, later, the bins were adjusted to $20,000 intervals to reduce the number of bins.
+  - However, later, the bins were adjusted to $20,000 intervals to reduce the number of bins.
 
-  ![image](https://github.com/user-attachments/assets/eed3e58d-d85b-458c-bc86-21ac096420b8)
+    ![image](https://github.com/user-attachments/assets/eed3e58d-d85b-458c-bc86-21ac096420b8)
 
-- Moreover, the `'Above 100000'` bin was combined with the `'80001 – 100000'` bin to form the `'Above 80000'` bin due to the small number of people in the former.
+  - Moreover, the `'Above 100000'` bin was combined with the `'80001 – 100000'` bin to form the `'Above 80000'` bin due to the small number of people in the former.
 
 ## :bulb: Demographic Insights:
 - **Generation**: The majority of customers are from the `'Gen X'` generation (born between 1965 – 1980).
@@ -106,7 +112,7 @@ The main objectives were to:
 
 
 ## :bulb: Channel Performance:
-- The number of `store` purchases is the highest, followed by the number of `web` purchases. `Deals` and `catalogs` are underperforming in attracting customers.
+- The number of `store` purchases is the highest, followed by the number of `web` purchases. `Deals` and `catalogs` are not as effective in attracting customers.
 <img width="602" alt="image" src="https://github.com/user-attachments/assets/34d9b987-98d8-4f03-927e-73b4f6c408cf">
 
 ## :bulb: Campaign Results:
@@ -117,10 +123,36 @@ The main objectives were to:
 
 - Note: The conversion rate is calculated as `(number of customers who accepted the campaign / total number of customers) * 100`.
 
-## Conclusion:
+## ⚡ Key Findings and actionable recommendations:
+- As the sixth campaign achieved a significant increase to a 14.91% conversion rate, the marketing company should try replicating the approach used in that campaign. It will help determine if the high conversion rate can be consistently achieved across future campaigns.
+- Avoid repeating the strategy of the second campaign. Its significantly lower conversion rate suggests that it was less effective, and further investigation into the reasons behind its underperformance is recommended.
 - The most common profile is a Gen X individual (born between 1965 and 1980), with a bachelor's degree, partnered (either married or living together), having no children at home, earning between $40,000 and $60,000 annually, and residing in Spain.
-   
+
+- The amount spent by customers on different product categories in the last two years. According to the data, wines are the top revenue-generating category, with a substantial $665K in total spending, highlighting its popularity and significant impact on overall revenue. Meat follows as the second-highest category with $396K in spending. In contrast, Gold, Fish, Sweet, and Fruits have much lower spending. This suggests a lower level of consumer interest in these product categories or potentially less effective marketing strategies for these products.
+
+• Recommendation: 
+- Focus marketing efforts on promoting high-revenue categories like wines and meat, while trying different strategies to boost the appeal of lower-performing categories such as fruits.
+
+The Store channel leads with the highest number of purchases, totaling 12,653. This reflects a strong preference for in-person shopping and the effectiveness of the physical store in driving sales. The Web channel is the second most popular channel, with 8,954 purchases, demonstrating significant online engagement but still trailing behind the store. Catalog and Deals are less effective in attracting customers, with 5,810 purchases and 5,084 purchases, respectively.
+
+•  Recommendations: 
+- Since the majority of customers prefer to buy in person, invest in maintaining and potentially expanding the store channel’s strengths. 
+- Consider enhancing the deals channel’s effectiveness through targeted promotions or re-evaluating its strategy.
+
+- Recency indicates the number of days since a customer's last purchase. The distribution shows that customer purchases are spread out across a wide range of days, from 0 to 100. While some customers are purchasing again within a few days, a significant portion (about 70%) are taking much longer to return (more than 30 days). This indicates that customers do not return quickly, suggesting a need to improve customer retention.
+
+• Recommendations:
+- Utilize targeted marketing campaigns to re-engage customers who have not made a purchase recently. Some possible ways to do it include personalized emails providing special offers like discounts on their next purchase or loyalty programs that reward customers for making frequent purchases.
+- Conduct a survey to gather feedback from customers to understand why they do not purchase frequently, assess their satisfaction with the products and services, and identify areas for improvement.
+
+- Majority of customers visit the website fewer than 10 times a month. This indicates that while there are some repeat visitors, most customers do not visit the site frequently. To increase web purchases, it would be beneficial to encourage more frequent visits. 
+
+•  Recommendations:
+- Improve the website’s interface and usability, making it more attractive and easier to navigate. 
+- Design a brief and user-friendly questionnaire that can be quickly completed by recipients to understand why customers do not visit the website often and to identify specific areas for improvement, which can provide insights that will help in making targeted enhancements to the site.
+
+
 > [!NOTE]
 > For a detailed exploration of the data and results, check out the story in **Tableau** that I delivered visualization of the key findings from this data analysis.\
-> To view and interact with the Tableau story, visit [here]()
+> To view and interact with the Tableau story, visit [here](https://public.tableau.com/app/profile/sujung.choi/viz/marketing_campaign_17218514702580/Story1)
 
