@@ -83,6 +83,18 @@ The main objectives are to:
 
   - Moreover, the `'Above 100000'` bin was combined with the `'80001 – 100000'` bin to form the `'Above 80000'` bin due to the small number of people in the former.
 
+### 6. Created New Columns:
+- Created a `'Total accepted camp'` column by summing the acceptance of all six campaigns for each customer.
+  <img width="608" alt="image" src="https://github.com/user-attachments/assets/462baed3-2812-4425-a32c-9ea6169c7961">
+
+
+- Created a `'TotalPurchases'` column by summing the amount spent on each product by the customer.
+  <img width="608" alt="image" src="https://github.com/user-attachments/assets/f55cf3bb-ea82-4e81-87d2-67bc0c2b2e60">
+
+- Created a `'TotalOrders'` column by summing the number of purchases made through all different channels.
+  <img width="608" alt="image" src="https://github.com/user-attachments/assets/7c7308f3-0c9b-4e91-a67b-a4c10662c4bc">
+
+  
 ## :bulb: Demographic Insights:
 - **Generation**: The majority of customers are from the `'Gen X'` generation (born between 1965 – 1980).
  <img width="417" alt="image" src="https://github.com/user-attachments/assets/af727e53-bb3d-4797-9e7f-c31885359062">
