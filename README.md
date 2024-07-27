@@ -1,5 +1,5 @@
 # :computer: Marketing Campaign Data Analysis
-In this project, I used **Microsoft Excel** to explore and analyze Maven marketing campaign data, which contains information on 2,240 customers. I first cleaned the data to ensure integrity and then analyzed it using `PivotTables` and various `Charts`. Finally, I highlighted key findings and delivered the data analysis report using **Tableau** Story.
+In this project, I intend to play a role of data analyst to analyze marketing data of my client, called Maven Marketing. I used **Microsoft Excel** to explore and analyze their marketing campaign data, which contains information on 2,240 customers. I first cleaned the data to ensure integrity and then analyzed it using `PivotTables` and various `Charts`. Finally, I highlighted key findings and delivered the data analysis report using **Tableau** Story.
 
 For the purpose of this analysis, the following general assumptions are made:
 1. The data is up-to-date as of 2024.
@@ -100,6 +100,7 @@ The main objectives are to:
  <img width="417" alt="image" src="https://github.com/user-attachments/assets/af727e53-bb3d-4797-9e7f-c31885359062">
 
 - **Education**: The majority of customers have a bachelor's degree (column named `'Graduation'`).
+- Note: For later visualization purposes, the name `'Graduation'` will be modified to `'Bachelor'`, assuming that is the case.
   
 <img width="416" alt="image" src="https://github.com/user-attachments/assets/df9ab6ca-8ce1-4e37-abde-daf7faf79a52">
 
@@ -139,7 +140,7 @@ The main objectives are to:
 
 ### :pushpin: Point 1: Who is the typical customer?
 
-<img width="789" alt="image" src="https://github.com/user-attachments/assets/3a9696c9-c9e5-4d58-9ccf-5eab0120868f">
+<img width="782" alt="image" src="https://github.com/user-attachments/assets/c45649f2-783c-4f20-9648-4eb2db02d8d5">
 
 - The most common profile:
   - `Gen X` generation (born between 1965 and 1980)
